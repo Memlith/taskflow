@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000
 
 //home
 app.get('/', (req, res) => {
-  res.send(Fight your fears and survive.)
+  res.send('Fight your fears and survive.')
 })
 
 //status
