@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000
 // home
 app.get('/', (req, res) => {
   res.send('Gerenciamento de Cartas de Magic: The Gathering')
-  res.send('Sistema Online')
+  res.send('Status: Sistema Online')
 })
 
 // sobre
