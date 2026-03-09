@@ -31,7 +31,7 @@ app.get('/contato', (req, res) => {
 
 // cadastro
 app.get('/cartas/cadastro', (req, res) => {
-  res.send('Pagina de cadastro de cartas')
+  res.send('Formulario de cadastro de cartas')
 })
 
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}/`))
