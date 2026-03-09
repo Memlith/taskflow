@@ -24,4 +24,9 @@ app.get('/artistas', (req, res) => {
   res.send('Lista de Artistas de Cartas cadastradas')
 })
 
+// contato
+app.get('/contato', (req, res) => {
+  res.send('Pagina de contato do sistema')
+})
+
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}/`))
