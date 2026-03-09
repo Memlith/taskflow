@@ -4,9 +4,9 @@ require('dotenv').config()
 const app = express()
 const PORT = process.env.PORT || 3000
 
-//home
+// home
 app.get('/', (req, res) => {
-  res.send('Fight your fears and survive.')
+  res.send('Sistema de Gerenciamento de Cartas de Magic: The Gathering')
 })
 
 //status
