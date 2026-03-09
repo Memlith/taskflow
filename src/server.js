@@ -14,4 +14,9 @@ app.get('/sobre', (req, res) => {
   res.send('Sistema desenvolvido em Node.js para estudo de CI/CD')
 })
 
+// cartas
+app.get('/cartas', (req, res) => {
+  res.send('Lista de Cartas cadastradas')
+})
+
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}/`))
