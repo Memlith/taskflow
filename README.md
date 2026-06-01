@@ -41,3 +41,11 @@ mínimo 6 rotas
 ✔ Merge bloqueado com erro\
 ✔ Merge liberado após correção\
 ✔ Deploy simulado executando
+
+## Atividade 6 - Final: Deploy
+
+✔ Aplicação publicada no Render
+✔ CI obrigatória funcionando
+✔ Branch protegida ativa
+✔ Deploy automático funcionando
+✔ Demonstração completa do ciclo
