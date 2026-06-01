@@ -44,8 +44,8 @@ mínimo 6 rotas
 
 ## Atividade 6 - Final: Deploy
 
-✔ Aplicação publicada no Render
-✔ CI obrigatória funcionando
-✔ Branch protegida ativa
-✔ Deploy automático funcionando
+✔ Aplicação publicada no Render\
+✔ CI obrigatória funcionando\
+✔ Branch protegida ativa\
+✔ Deploy automático funcionando\
 ✔ Demonstração completa do ciclo
