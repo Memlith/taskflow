@@ -6,8 +6,7 @@ const PORT = process.env.PORT || 3000
 
 // home
 app.get('/', (req, res) => {
-  res.send('Gerenciamento de Cartas de Magic: The Gathering')
-  res.send('Status: Sistema Online')
+  res.send('Gerenciamento de Cartas de Magic: The Gathering <br><br> Status: Sistema Online')
 })
 
 // sobre
@@ -35,4 +34,9 @@ app.get('/cartas/cadastro', (req, res) => {
   res.send('Formulario de cadastro de cartas')
 })
 
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}/`))
+// Só inicia o servidor na porta se não for ambiente de teste
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}/`))
+}
+
+module.exports = app
