@@ -26,9 +26,9 @@ mínimo 6 rotas
 
 ## Atividade 3 - Testes
 
-✔ Criar pelo menos 2 testes
-✔ Rodar pytest localmente
-✔ Integrar no workflow
-✔ Demonstrar pipeline verde
-✔ Demonstrar pipeline vermelha
+✔ Criar pelo menos 2 testes\
+✔ Rodar pytest localmente\
+✔ Integrar no workflow\
+✔ Demonstrar pipeline verde\
+✔ Demonstrar pipeline vermelha\
 ✔ Corrigir erro
