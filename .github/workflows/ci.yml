@@ -1,3 +1,5 @@
+name: CI - API Node
+
 on:
   push:
     branches:
@@ -5,7 +7,6 @@ on:
 
 jobs:
   build:
-    name: CI - API Node
     runs-on: ubuntu-latest
 
     steps:
