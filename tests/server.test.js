@@ -8,9 +8,9 @@ describe('Testando a rota principal', () => {
   })
 })
 
-describe('Testando a rota principal', () => {
-  test('Deve retornar status 200 na rota GET /sobre', async () => {
-    const response = await request(app).get('/sobre')
+describe('Testando a rota das cartas', () => {
+  test('Deve retornar status 200 na rota GET /cartas', async () => {
+    const response = await request(app).get('/cartas')
     expect(response.statusCode).toBe(200)
   })
 })
