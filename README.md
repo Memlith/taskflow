@@ -35,9 +35,9 @@ mínimo 6 rotas
 
 ## Atividade 5 - Main Protection
 
-✔ main protegida
-✔ Push direto bloqueado
-✔ CI obrigatória configurada
-✔ Merge bloqueado com erro
-✔ Merge liberado após correção
+✔ main protegida\
+✔ Push direto bloqueado\
+✔ CI obrigatória configurada\
+✔ Merge bloqueado com erro\
+✔ Merge liberado após correção\
 ✔ Deploy simulado executando
