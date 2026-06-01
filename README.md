@@ -24,7 +24,7 @@ mínimo 6 rotas
 ✔ Simular 2 falhas diferentes\
 ✔ Corrigir as falhas
 
-## Atividade 3 - Testes
+## Atividade 4 - Testes
 
 ✔ Criar pelo menos 2 testes\
 ✔ Rodar pytest localmente\
@@ -32,3 +32,12 @@ mínimo 6 rotas
 ✔ Demonstrar pipeline verde\
 ✔ Demonstrar pipeline vermelha\
 ✔ Corrigir erro
+
+## Atividade 5 - Main Protection
+
+✔ main protegida
+✔ Push direto bloqueado
+✔ CI obrigatória configurada
+✔ Merge bloqueado com erro
+✔ Merge liberado após correção
+✔ Deploy simulado executando
