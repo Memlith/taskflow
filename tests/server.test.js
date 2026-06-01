@@ -7,3 +7,10 @@ describe('Testando a rota principal', () => {
     expect(response.statusCode).toBe(200)
   })
 })
+
+describe('Testando a rota principal', () => {
+  test('Deve retornar status 200 na rota GET /sobre', async () => {
+    const response = await request(app).get('/sobre')
+    expect(response.statusCode).toBe(200)
+  })
+})
