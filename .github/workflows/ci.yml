@@ -1,4 +1,4 @@
-name: CI - API Node      
+name: CI - API Node
 
 on:
   push:
@@ -28,3 +28,6 @@ jobs:
 
       - name: Executar Lint/Testes
         run: npm test
+
+      - name: Simular Deploy
+        run: echo "Deploy realizado com sucesso"
